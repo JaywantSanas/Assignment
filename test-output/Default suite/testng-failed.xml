@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ComprehensiveAsignment.ComprehensiveAsignment.TextNGclass">
+      <class name="AssignmentPackage.TestNGclass2">
         <methods>
+          <include name="Home"/>
           <include name="Setup"/>
-          <include name="RequestDemo"/>
+          <include name="Solution"/>
           <include name="TearDown"/>
         </methods>
-      </class> <!-- ComprehensiveAsignment.ComprehensiveAsignment.TextNGclass -->
+      </class> <!-- AssignmentPackage.TestNGclass2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

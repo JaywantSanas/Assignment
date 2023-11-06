@@ -1,4 +1,4 @@
-package ComprehensiveAsignment.ComprehensiveAsignment;
+package AssignmentPackage;
 
 import java.time.Duration;
 
@@ -60,6 +60,7 @@ public class TestNGclass {
 		Assert.assertTrue(RequestDemo && RequestDemo);
 	}
 
+	
 	@AfterMethod
 	public void TearDown() {
 

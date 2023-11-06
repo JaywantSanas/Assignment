@@ -1,4 +1,4 @@
-package ComprehensiveAsignment.ComprehensiveAsignment;
+package AssignmentPackage;
 
 import java.time.Duration;
 

@@ -1,35 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="5" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-05T20:59:42 IST" name="Default suite" finished-at="2023-11-05T20:59:56 IST" duration-ms="13477">
+  <suite started-at="2023-11-06T19:41:02 IST" name="Suite" finished-at="2023-11-06T19:42:15 IST" duration-ms="73263">
     <groups>
     </groups>
-    <test started-at="2023-11-05T20:59:42 IST" name="Default test" finished-at="2023-11-05T20:59:56 IST" duration-ms="13477">
-      <class name="ComprehensiveAsignment.ComprehensiveAsignment.TextNGclass">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:ComprehensiveAsignment.ComprehensiveAsignment.TextNGclass@1817d444]" started-at="2023-11-05T20:59:42 IST" name="Setup" finished-at="2023-11-05T20:59:49 IST" duration-ms="6800" status="PASS">
+    <test started-at="2023-11-06T19:41:02 IST" name="Test" finished-at="2023-11-06T19:42:15 IST" duration-ms="73263">
+      <class name="AssignmentPackage.TestNGclass">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:AssignmentPackage.TestNGclass@4ac3c60d]" started-at="2023-11-06T19:41:02 IST" name="Setup" finished-at="2023-11-06T19:41:10 IST" duration-ms="8246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="VerifyLogo()[pri:1, instance:ComprehensiveAsignment.ComprehensiveAsignment.TextNGclass@1817d444]" started-at="2023-11-05T20:59:49 IST" name="VerifyLogo" finished-at="2023-11-05T20:59:49 IST" duration-ms="515" status="PASS">
+        <test-method signature="VerifyLogo()[pri:1, instance:AssignmentPackage.TestNGclass@4ac3c60d]" started-at="2023-11-06T19:41:10 IST" name="VerifyLogo" finished-at="2023-11-06T19:41:10 IST" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogo -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:ComprehensiveAsignment.ComprehensiveAsignment.TextNGclass@1817d444]" started-at="2023-11-05T20:59:49 IST" name="TearDown" finished-at="2023-11-05T20:59:50 IST" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AssignmentPackage.TestNGclass@4ac3c60d]" started-at="2023-11-06T19:41:10 IST" name="TearDown" finished-at="2023-11-06T19:41:11 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:ComprehensiveAsignment.ComprehensiveAsignment.TextNGclass@1817d444]" started-at="2023-11-05T20:59:50 IST" name="Setup" finished-at="2023-11-05T20:59:55 IST" duration-ms="5004" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:AssignmentPackage.TestNGclass@4ac3c60d]" started-at="2023-11-06T19:41:11 IST" name="Setup" finished-at="2023-11-06T19:41:18 IST" duration-ms="7357" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="onetrust-accept-btn-handler"]"}
+  (Session info: chrome=119.0.6045.105)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65a2b6c488e34ed847a032bf0a21a4d8, findElement {using=xpath, value=//*[@id="onetrust-accept-btn-handler"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.105, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64614}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64614/devtoo..., se:cdpVersion: 119.0.6045.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65a2b6c488e34ed847a032bf0a21a4d8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="onetrust-accept-btn-handler"]"}
+  (Session info: chrome=119.0.6045.105)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65a2b6c488e34ed847a032bf0a21a4d8, findElement {using=xpath, value=//*[@id="onetrust-accept-btn-handler"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.105, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64614}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64614/devtoo..., se:cdpVersion: 119.0.6045.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65a2b6c488e34ed847a032bf0a21a4d8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at AssignmentPackage.TestNGclass.Setup(TestNGclass.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="RequestDemo()[pri:2, instance:ComprehensiveAsignment.ComprehensiveAsignment.TextNGclass@1817d444]" started-at="2023-11-05T20:59:55 IST" name="RequestDemo" finished-at="2023-11-05T20:59:55 IST" duration-ms="517" status="FAIL">
-          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+        <test-method signature="RequestDemo()[pri:2, instance:AssignmentPackage.TestNGclass@4ac3c60d]" started-at="2023-11-06T19:41:18 IST" name="RequestDemo" finished-at="2023-11-06T19:41:18 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Method ComprehensiveAsignment.ComprehensiveAsignment.TextNGclass.RequestDemo() didn't finish within the time-out 500]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="onetrust-accept-btn-handler"]"}
+  (Session info: chrome=119.0.6045.105)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65a2b6c488e34ed847a032bf0a21a4d8, findElement {using=xpath, value=//*[@id="onetrust-accept-btn-handler"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.105, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64614}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64614/devtoo..., se:cdpVersion: 119.0.6045.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65a2b6c488e34ed847a032bf0a21a4d8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method ComprehensiveAsignment.ComprehensiveAsignment.TextNGclass.RequestDemo() didn't finish within the time-out 500
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="onetrust-accept-btn-handler"]"}
+  (Session info: chrome=119.0.6045.105)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65a2b6c488e34ed847a032bf0a21a4d8, findElement {using=xpath, value=//*[@id="onetrust-accept-btn-handler"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.105, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64614}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64614/devtoo..., se:cdpVersion: 119.0.6045.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65a2b6c488e34ed847a032bf0a21a4d8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at AssignmentPackage.TestNGclass.Setup(TestNGclass.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestDemo -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AssignmentPackage.TestNGclass@4ac3c60d]" started-at="2023-11-06T19:41:18 IST" name="TearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1699279878479" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- AssignmentPackage.TestNGclass -->
+      <class name="AssignmentPackage.TestNGclass2">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:41:18 IST" name="Setup" finished-at="2023-11-06T19:41:27 IST" duration-ms="9416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Home()[pri:1, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:41:27 IST" name="Home" finished-at="2023-11-06T19:41:30 IST" duration-ms="2514" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method AssignmentPackage.TestNGclass2.Home() didn't finish within the time-out 2500]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method AssignmentPackage.TestNGclass2.Home() didn't finish within the time-out 2500
 at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
 at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
@@ -60,12 +214,60 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RequestDemo -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:ComprehensiveAsignment.ComprehensiveAsignment.TextNGclass@1817d444]" started-at="2023-11-05T20:59:55 IST" name="TearDown" finished-at="2023-11-05T20:59:56 IST" duration-ms="286" status="PASS">
+        </test-method> <!-- Home -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:41:30 IST" name="TearDown" finished-at="2023-11-06T19:41:31 IST" duration-ms="726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- ComprehensiveAsignment.ComprehensiveAsignment.TextNGclass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:41:31 IST" name="Setup" finished-at="2023-11-06T19:41:39 IST" duration-ms="8667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Solution()[pri:2, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:41:39 IST" name="Solution" finished-at="2023-11-06T19:41:42 IST" duration-ms="2403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Solution -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:41:42 IST" name="TearDown" finished-at="2023-11-06T19:41:42 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:41:42 IST" name="Setup" finished-at="2023-11-06T19:41:49 IST" duration-ms="6891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Resources()[pri:3, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:41:49 IST" name="Resources" finished-at="2023-11-06T19:41:52 IST" duration-ms="3256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Resources -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:41:52 IST" name="TearDown" finished-at="2023-11-06T19:41:52 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:41:52 IST" name="Setup" finished-at="2023-11-06T19:42:01 IST" duration-ms="8269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="BeyondRPA()[pri:4, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:42:01 IST" name="BeyondRPA" finished-at="2023-11-06T19:42:03 IST" duration-ms="2586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeyondRPA -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:42:03 IST" name="TearDown" finished-at="2023-11-06T19:42:04 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:42:04 IST" name="Setup" finished-at="2023-11-06T19:42:12 IST" duration-ms="8863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Company()[pri:5, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:42:12 IST" name="Company" finished-at="2023-11-06T19:42:15 IST" duration-ms="2573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Company -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AssignmentPackage.TestNGclass2@1ab3a8c8]" started-at="2023-11-06T19:42:15 IST" name="TearDown" finished-at="2023-11-06T19:42:15 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- AssignmentPackage.TestNGclass2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
